@@ -1,0 +1,54 @@
+/* Main container setup */
+.main {
+    background-color: #0e1117;
+    padding-top: 2rem;
+}
+
+/* Hide Streamlit default branding - Keeping Menu visible for usage */
+/* #MainMenu {visibility: hidden;} */
+footer {
+    visibility: hidden;
+}
+
+/* Custom Header Style */
+h1 {
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
+/* Button Styling */
+div.stButton>button {
+    width: 100%;
+    background: linear-gradient(90deg, #ef233c 0%, #d90429 100%);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+
+div.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(239, 35, 60, 0.4);
+}
+
+/* Success/Error message styling */
+.stAlert {
+    border-radius: 8px;
+}
+
+/* Card-like effect for images */
+.css-1v0mbdj.etr89bj1 {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Sidebar styling */
+.css-1d391kg {
+    background-color: #161b22;
+}
