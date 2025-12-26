@@ -1,8 +1,8 @@
-streamlit
-tensorflow-cpu
-mtcnn
+streamlit==1.28.0
+tensorflow-cpu==2.15.0
+mtcnn==0.1.1
 opencv-python-headless
-numpy
-protobuf
+numpy<2.0.0
+protobuf==3.20.3
 Pillow
 altair
